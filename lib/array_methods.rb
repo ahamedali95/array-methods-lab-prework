@@ -1,15 +1,17 @@
 def using_include(array, element)
-  i = 0
-  loop do
-    if array[i] == element
-      return true
-    end
+  # i = 0
+  # loop do
+  #   if array[i] == element
+  #     return true
+  #   end
+  # 
+  #   i += 1
+  #   break if i == array.length
+  # end
+  # 
+  # false
 
-    i += 1
-    break if i == array.length
-  end
-
-  false
+  array.include?(element)
 end
 
 def using_sort(array)
