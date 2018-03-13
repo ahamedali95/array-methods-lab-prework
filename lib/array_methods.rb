@@ -8,6 +8,8 @@ def using_include(array, element)
     i += 1
     break if i == array.length
   end
+
+  false
 end
 
 def using_sort(array)
